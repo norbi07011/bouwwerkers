@@ -1,0 +1,9 @@
+# Premium CoatUp – statische website, geen build-stap nodig
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
